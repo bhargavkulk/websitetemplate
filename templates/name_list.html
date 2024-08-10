@@ -1,0 +1,7 @@
+% for (id, val) in data.items():
+<%
+website = val["website"]
+name = val["name"]
+%>
+<li><a href="${website}"><img src="/files/${id}.jpg" alt="${name}'s photo" /> ${name}</a></li>
+% endfor

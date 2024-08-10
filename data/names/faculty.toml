@@ -1,0 +1,35 @@
+[eeide]
+name = "Eric Eide"
+website = "https://www.cs.utah.edu/~eeide/"
+
+[kulkarni]
+name = "Matthew Flatt"
+website = "https://www.cs.utah.edu/~mflatt/"
+
+[ganesh]
+name = "Ganesh Gopalakrishnan"
+website = "https://www.cs.utah.edu/~ganesh/"
+
+[blg]
+name = "Ben Greenman"
+website = "https://users.cs.utah.edu/~blg/"
+
+[mhall]
+name = "Mary Hall"
+website = "https://www.cs.utah.edu/~mhall/"
+
+[vijay]
+name = "Vijay Nagarajan"
+website = "https://users.cs.utah.edu/~vijay/"
+
+[pavpan]
+name = "Pavel Panchekha"
+website = "https://pavpanchekha.com"
+
+[saday]
+name = "P. Sadayappan"
+website = "https://www.cs.utah.edu/~saday/"
+
+[regehr]
+name = "John Regehr"
+website = "http://www.cs.utah.edu/~regehr/"

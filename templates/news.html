@@ -1,0 +1,32 @@
+<%!
+from datetime import datetime
+
+def format_date(date: datetime) -> str:
+    return date.strftime("%B %Y")
+%>
+<!doctype html>
+<html lang="en_US">
+<head>
+<title>PLUtah</title>
+<!--<link rel="stylesheet" href="/main.css" />-->
+<body>
+  <header>
+    <img src="/logo.svg" alt="PLUtah logo" />
+    <nav><ul>
+      <li><a href="news.html">News</a></li>
+      <li><a id="people">People</a></li>
+      <li><a href="seminars.html">Seminar</a></li>
+    </ul></nav>
+  </header>
+
+  <h1 id="news">News</h1>
+  % for timestamp, news in news_list:
+    <%
+    display_time = format_date(timestamp)
+    %>
+    <h2>${display_time}</h2>
+    ${news}
+  % endfor
+
+</body>
+</html>
