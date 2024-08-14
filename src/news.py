@@ -4,7 +4,6 @@ from datetime import datetime
 from .markdown.citation import CitationExtension
 from .bibliography import BibEntry
 from .markdown.namelink import NameLinkExtension
-from .utils import TomlExpr
 import markdown
 from typing import Dict, List, Tuple
 

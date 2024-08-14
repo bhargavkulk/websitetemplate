@@ -1,6 +1,5 @@
 from os.path import abspath
 from io import StringIO
-from datetime import datetime
 from src.news import generate_news_lists
 from src.namelist import gen_name_lists
 from src.utils import gen_website_list

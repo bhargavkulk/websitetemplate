@@ -1,8 +1,8 @@
 import re
 import xml.etree.ElementTree as etree
-from ..bibliography import BibEntry, flatten_entries
+from ..bibliography import BibEntry
 import markdown
-from markdown.inlinepatterns import InlineProcessor, Pattern
+from markdown.inlinepatterns import InlineProcessor
 from markdown.extensions import Extension
 from typing import Dict, Tuple, Optional
 
